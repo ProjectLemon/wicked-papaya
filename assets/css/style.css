@@ -137,4 +137,23 @@ body {
 .clothes-spinner {
   height: 40rem;
 }
-
+/*Buttons*/
+ul#buttons li{
+	display:inline;
+}
+ul#buttons li a{
+	font-family: "Georgia",times, serif; 
+	font-size: 20px;
+	color:#ae3838; 
+	text-decoration: none; 
+	padding: 10px 20px;
+}
+ul#buttons li a:hover {
+    background-color: white;
+	opacity:0.6; 
+} 
+li#currentpage a {
+    background-color: black;
+    color: #ae3838;
+	border-radius: 4px 4px 0 0;
+}
