@@ -1,5 +1,9 @@
-body{
- 
+html {
+  font-size: 62.5%; 
+  width: 100%;
+}
+body {
+  width: 800rem;
 }
 #content{
  background-color: red; 
