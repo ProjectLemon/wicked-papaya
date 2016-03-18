@@ -34,5 +34,14 @@ body {
 #content{
   width: 80rem;
   margin: auto;
-  height: 1rem;
+  background-color: #c9ced3;
+}
+
+
+/**
+ * Buttons
+ */
+.arrow {
+  width: 6rem;
+  height: 6rem;
 }
