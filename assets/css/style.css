@@ -37,7 +37,6 @@ body {
   background-color: #c9ced3;
 }
 
-
 /**
  * Buttons
  */
@@ -45,3 +44,25 @@ body {
   width: 6rem;
   height: 6rem;
 }
+
+
+
+
+/**
+ * Layout
+ */
+.left-slider-button {
+  float: left;
+}
+.right-slider-button {
+  float: right; 
+}
+.shirt {
+  height: 40rem;
+  width: auto;
+}
+.clothes-content {
+  margin: auto;
+}
+
+
