@@ -49,7 +49,6 @@ body {
     background-color: #c9ced3;
 }
 
-<<<<<<< HEAD
 #shirt {
     width: 100rem;
     background: blue;
@@ -67,7 +66,7 @@ body {
     background: yellow;
     float: right;
     margin-top: 15rem;
-=======
+}
 #pants-content {
 }
 
@@ -76,10 +75,18 @@ body {
 
 #content {
     background-color: #eceded;
->>>>>>> 0f2376e5190e51b0a77ed1ee2dcc99e0ee3cba3e
 }
-
-<<<<<<< HEAD
+.outgoing {
+  position: absolute;
+}
+#shirt-content .ingoing {
+  position: relative;
+  left: 1000px;
+}
+#pants-content .ingoing {
+  position: relative;
+  right: 1000px;
+}
 .checkbox {
     display: block;
     width: 30px;
@@ -91,17 +98,8 @@ body {
     cursor: pointer;
     margin: 0 auto;
     margin-top: 2rem;
-=======
-.arrow {
-  width: 6rem;
-  height: 6rem;
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
-  
-  margin: 1em;
->>>>>>> 0f2376e5190e51b0a77ed1ee2dcc99e0ee3cba3e
 }
+
 
 .checkbox-text {
     text-align: center;
@@ -113,20 +111,27 @@ body {
 /**
  * Buttons
  */
-<<<<<<< HEAD
 
 .arrow {
-    width: 6rem;
-    height: 6rem;
+  width: 6rem;
+  height: 6rem;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  
+  margin: 1em;
 }
-=======
 .left-slider-button {
   float: left;
 }
 .right-slider-button {
   float: right; 
 }
-.shirt {
+
+/**
+ * Layout
+ */
+.shirt, .pants {
   height: auto;
   width: 100%;
 }
@@ -141,6 +146,7 @@ body {
 .clothes-spinner {
   height: 40rem;
 }
+
 /**
  * Navigation
  */
@@ -166,4 +172,4 @@ li#currentpage a {
   color: white !important;
 	border-radius: 4px 4px 0 0;
 }
->>>>>>> 0f2376e5190e51b0a77ed1ee2dcc99e0ee3cba3e
+
