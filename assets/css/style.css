@@ -84,51 +84,53 @@ body {
 #content {
     width: 80rem;
     margin: auto;
+    background-color: #c9ced3;
 }
 
-#pants-content {
-    background: red;
-    height: 100%rem;
+#shirt {
     width: 100rem;
-}
-
-#shirt-content {
-    width: 100rem;
-    height: 100rem;
     background: blue;
 }
 
-#content {
-    height: 200rem;
-    width: 200rem;
-    background-color: #c9ced3;
+#pants {
+    background: red;
+    height: 100rem;
+    width: 100rem;
 }
+
+#options {
+    width: 18rem;
+    height: 30rem;
+    background: yellow;
+    float: right;
+    margin-top: 15rem;
+}
+
+.checkbox {
+    display: block;
+    width: 30px;
+    height: 30px;
+    margin: -1px 4px 0 0;
+    vertical-align: middle;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    cursor: pointer;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+
+.checkbox-text {
+    text-align: center;
+    font-family: cursive;
+    font-size: 2em;
+}
+
+
 /**
  * Buttons
  */
 
 .arrow {
-  width: 6rem;
-  height: 6rem;
+    width: 6rem;
+    height: 6rem;
 }
-
-
-
-
-/**
- * Layout
- */
-.left-slider-button {
-  float: left;
-}
-.right-slider-button {
-  float: right; 
-}
-.shirt {
-  height: 40rem;
-  width: auto;
-}
-.clothes-content {
-  margin: auto;
-}
-
