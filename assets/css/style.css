@@ -70,10 +70,6 @@ body {
   
   margin: 1em;
 }
-
-
-
-
 /**
  * Layout
  */
@@ -104,9 +100,15 @@ body {
 nav {
   text-align: center;
   padding: 2em;
+
 }
+/*Buttons on top*/
 ul#buttons li{
-	display:inline;
+	display:inline;  
+  	border-style: solid;
+	padding:10px 0px; 
+	border-width: 0px 0px 2px 0px;
+	border-color: #009688; 
 }
 ul#buttons li a{
 	font-size: 20px;
@@ -114,10 +116,6 @@ ul#buttons li a{
 	text-decoration: none; 
 	padding: 10px 20px;
 }
-ul#buttons li a:hover {
-  background-color: white;
-	opacity:0.6; 
-} 
 li#currentpage a {
   background-color: #009688;
   color: white !important;
