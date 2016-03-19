@@ -92,11 +92,12 @@
     #pants {}
     
     #options {
-        width: 14rem;
+        width: 10rem;
         height: 30rem;
         background: #009688;
         float: right;
         margin-top: 15rem;
+        border-radius: 6px 6px 6px 6px;
     }
     
     #pants-content {}
@@ -202,7 +203,6 @@
         color: white;
     }
     
-   
     ul#buttons a:hover {
         color: white;
     }
