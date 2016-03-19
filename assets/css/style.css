@@ -67,6 +67,7 @@
     /**
  * Generall
  */
+
 html {
     font-size: 62.5%;
     width: 100%;
@@ -223,4 +224,3 @@ li#currentpage a span {
 ul#buttons a:hover {
     color: white;
 }
-
