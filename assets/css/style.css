@@ -2,39 +2,9 @@
  * Reset some basic elements
  */
 
-html,
-body,
-div,
-span,
-object,
-ifram,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-img,
-form,
-table,
-time,
-canvas,
-header,
-meny,
-nav,
-section,
-audio,
-video,
-dl,
-dd,
-ol,
-ul,
-figure,
-blockquote {
+html,body,div,span,object,ifram,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,img,
+form,table,time,canvas,header,meny,nav,section,audio,video,dl,dd,ol,ul,
+figure,blockquote {
     border: 0;
     font-size: 100%;
     vertical-align: baseline;
@@ -42,17 +12,7 @@ blockquote {
     padding: 0
 }
 
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section {
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
     display: block
 }
 
@@ -79,6 +39,8 @@ html {
 body {
     width: 100%;
     height: 100%;
+    background-color: #f4f5f7;
+    font-family: "Open Sans", sans-serif;
 }
 
 #content {
@@ -87,6 +49,7 @@ body {
     background-color: #c9ced3;
 }
 
+<<<<<<< HEAD
 #shirt {
     width: 100rem;
     background: blue;
@@ -104,8 +67,19 @@ body {
     background: yellow;
     float: right;
     margin-top: 15rem;
+=======
+#pants-content {
 }
 
+#shirt-content {
+}
+
+#content {
+    background-color: #eceded;
+>>>>>>> 0f2376e5190e51b0a77ed1ee2dcc99e0ee3cba3e
+}
+
+<<<<<<< HEAD
 .checkbox {
     display: block;
     width: 30px;
@@ -117,6 +91,16 @@ body {
     cursor: pointer;
     margin: 0 auto;
     margin-top: 2rem;
+=======
+.arrow {
+  width: 6rem;
+  height: 6rem;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  
+  margin: 1em;
+>>>>>>> 0f2376e5190e51b0a77ed1ee2dcc99e0ee3cba3e
 }
 
 .checkbox-text {
@@ -129,8 +113,57 @@ body {
 /**
  * Buttons
  */
+<<<<<<< HEAD
 
 .arrow {
     width: 6rem;
     height: 6rem;
 }
+=======
+.left-slider-button {
+  float: left;
+}
+.right-slider-button {
+  float: right; 
+}
+.shirt {
+  height: auto;
+  width: 100%;
+}
+.clothes-content {
+  width: 28rem;
+  display: block;
+  margin: auto;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.clothes-spinner {
+  height: 40rem;
+}
+/**
+ * Navigation
+ */
+nav {
+  text-align: center;
+  padding: 2em;
+}
+ul#buttons li{
+	display:inline;
+}
+ul#buttons li a{
+	font-size: 20px;
+	color: #009688; 
+	text-decoration: none; 
+	padding: 10px 20px;
+}
+ul#buttons li a:hover {
+  background-color: white;
+	opacity:0.6; 
+} 
+li#currentpage a {
+  background-color: #009688;
+  color: white !important;
+	border-radius: 4px 4px 0 0;
+}
+>>>>>>> 0f2376e5190e51b0a77ed1ee2dcc99e0ee3cba3e
