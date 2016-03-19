@@ -67,7 +67,6 @@
     /**
  * Generall
  */
-
 html {
     font-size: 62.5%;
     width: 100%;
@@ -87,24 +86,19 @@ body {
     background-color: #c9ced3;
 }
 
-#shirt {
-    width: 100rem;
-    background: blue;
-}
-
-#pants {
-    background: red;
-    height: 100rem;
-    width: 100rem;
-}
+#shirt {}
+    
+#pants {}
 
 #options {
-    width: 18rem;
+    width: 10rem;
     height: 30rem;
-    background: yellow;
+    background: #009688;
     float: right;
     margin-top: 15rem;
+    border-radius: 6px 6px 6px 6px;
 }
+
 #pants-content {
 }
 
@@ -141,7 +135,6 @@ body {
 
 .checkbox-text {
     text-align: center;
-    font-family: cursive;
     font-size: 2em;
 }
 
@@ -202,6 +195,7 @@ ul#buttons li a {
     font-size: 20px;
     text-decoration: none;
     padding: 10px 20px;
+    color: black;
 }
 
 ul#buttons li a:hover {
@@ -224,3 +218,5 @@ li#currentpage a span {
 ul#buttons a:hover {
     color: white;
 }
+
+
