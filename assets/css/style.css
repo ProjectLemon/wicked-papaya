@@ -1,102 +1,62 @@
-    /**
+/**
  * Reset some basic elements
  */
     
-    html,
-    body,
-    div,
-    span,
-    object,
-    ifram,
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6,
-    p,
-    blockquote,
-    pre,
-    a,
-    img,
-    form,
-    table,
-    time,
-    canvas,
-    header,
-    meny,
-    nav,
-    section,
-    audio,
-    video,
-    dl,
-    dd,
-    ol,
-    ul,
-    figure,
-    blockquote {
-        border: 0;
-        font-size: 100%;
-        vertical-align: baseline;
-        margin: 0;
-        padding: 0
-    }
+html,body,div,span,object,ifram,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,img,form,table,
+time,canvas,header,meny,nav,section,audio,video,dl,dd,ol,ul,figure,blockquote {
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  margin: 0;
+  padding: 0
+}
     
-    article,
-    aside,
-    details,
-    figcaption,
-    figure,
-    footer,
-    header,
-    hgroup,
-    menu,
-    nav,
-    section {
-        display: block
-    }
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
+  display: block
+}
     
-    body {
-        line-height: 1
-    }
+body {
+  line-height: 1
+}
     
-    table {
-        border-collapse: collapse;
-        border-spacing: 0
-    }
-    /**
+table {
+  border-collapse: collapse;
+  border-spacing: 0
+}
+/**
  * Generall
  */
 html {
-    font-size: 62.5%;
-    width: 100%;
-    height: 100%;
+  font-size: 62.5%;
+  width: 100%;
+  height: 100%;
 }
 
 body {
-    width: 100%;
-    height: 100%;
-    background-color: #f4f5f7;
-    font-family: "Open Sans", sans-serif;
+  width: 100%;
+  height: 100%;
+  background-color: #f4f5f7;
+  font-family: "Open Sans", sans-serif;
 }
 
 #content {
-    width: 80rem;
-    margin: auto;
-    background-color: #c9ced3;
+  width: 80rem;
+  margin: auto;
+  background-color: #c9ced3;
 }
 
-#shirt {}
-    
-#pants {}
 
 #options {
-    width: 10rem;
-    height: 30rem;
-    background: #009688;
-    float: right;
-    margin-top: 15rem;
-    border-radius: 6px 6px 6px 6px;
+  width: 10rem;
+  background: #009688;
+  float: right;
+  padding: 1.5rem;
+  border-radius: 6px 6px 6px 6px;
+}
+.scrollbox {
+  height: 26rem;
+  overflow: scroll;
+  box-shadow: inset 0 -1rem 1.5rem -1rem rgba(0, 0, 0, .3);
 }
 
 #pants-content {
@@ -106,7 +66,7 @@ body {
 }
 
 #content {
-    background-color: #eceded;
+  background-color: #eceded;
 }
 .outgoing {
   position: absolute;
@@ -120,22 +80,16 @@ body {
   right: 1000px;
 }
 .checkbox {
-    display: block;
-    width: 30px;
-    height: 30px;
-    margin: -1px 4px 0 0;
-    vertical-align: middle;
-    margin-top: 1rem;
-    margin-left: 1rem;
-    cursor: pointer;
-    margin: 0 auto;
-    margin-top: 2rem;
+  display: block;
+  width: 2rem;
+  height: auto;
+  margin: .5em auto;
 }
-
-
 .checkbox-text {
-    text-align: center;
-    font-size: 2em;
+  color: white;
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 1em;
 }
 
 
@@ -157,6 +111,19 @@ body {
 }
 .right-slider-button {
   float: right; 
+}
+.buy {
+  font-size: medium;
+  float: right;
+  background-color: #009688;
+  color: white;
+  padding: 1em;
+  border-radius: .3rem;
+  box-shadow: 0 0 .5rem rgba(0, 0, 0, .3);
+  transition: opacity .2s;
+}
+.buy:hover {
+  opacity: .8;
 }
 
 /**
@@ -183,40 +150,40 @@ body {
  */
 
 nav {
-    text-align: center;
-    padding: 2em;
+  text-align: center;
+  padding: 2em;
 }
 
 ul#buttons li {
-    display: inline;
+  display: inline;
 }
 
 ul#buttons li a {
-    font-size: 20px;
-    text-decoration: none;
-    padding: 10px 20px;
-    color: black;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 10px 20px;
+  color: black;
 }
 
 ul#buttons li a:hover {
-    background-color: #009688;
-    opacity: 0.6s;
-    border-radius: 4px 4px 0 0;
+  background-color: #009688;
+  opacity: 0.6s;
+  border-radius: 4px 4px 0 0;
 }
 
 li#currentpage a {
-    background-color: #009688;
-    color: white !important;
-    border-radius: 4px 4px 0 0;
+  background-color: #009688;
+  color: white !important;
+  border-radius: 4px 4px 0 0;
 }
 
 li#currentpage a span {
-    color: white;
+  color: white;
 }
 
 
 ul#buttons a:hover {
-    color: white;
+  color: white;
 }
 
 
