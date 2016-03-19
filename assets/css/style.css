@@ -1,10 +1,40 @@
-/**
+    /**
  * Reset some basic elements
  */
 
-html,body,div,span,object,ifram,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,img,
-form,table,time,canvas,header,meny,nav,section,audio,video,dl,dd,ol,ul,
-figure,blockquote {
+html,
+body,
+div,
+span,
+object,
+ifram,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+img,
+form,
+table,
+time,
+canvas,
+header,
+meny,
+nav,
+section,
+audio,
+video,
+dl,
+dd,
+ol,
+ul,
+figure,
+blockquote {
     border: 0;
     font-size: 100%;
     vertical-align: baseline;
@@ -12,7 +42,17 @@ figure,blockquote {
     padding: 0
 }
 
-article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
     display: block
 }
 
@@ -46,20 +86,53 @@ body {
 #content {
     width: 80rem;
     margin: auto;
+    background-color: #c9ced3;
 }
 
-#pants-content {
-}
+#shirt {}
 
-#shirt-content {
-}
+#pants {}
 
-#content {
-    background-color: #eceded;
-}
-/**
+#options {
+    width: 14rem;
+    height: 30rem;
+    background: #009688;
+    float: right;
+    margin-top: 15rem;
+ }
+    #pants-content {}
+    #shirt-content {}
+    #content {
+        background-color: #eceded;
+    }
+    .checkbox {
+        display: block;
+        width: 30px;
+        height: 30px;
+        margin: -1px 4px 0 0;
+        vertical-align: middle;
+        margin-top: 1rem;
+        margin-left: 1rem;
+        cursor: pointer;
+        margin: 0 auto;
+        margin-top: 2rem;
+    }
+    .arrow {
+        width: 6rem;
+        height: 6rem;
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+        margin: 1em;
+    }
+    .checkbox-text {
+        text-align: center;
+        font-size: 2em;
+    }
+    /**
  * Buttons
  */
+
 
 .arrow {
   width: 6rem;
@@ -97,27 +170,25 @@ body {
 /**
  * Navigation
  */
-nav {
-  text-align: center;
-  padding: 2em;
-
-}
-/*Buttons on top*/
-ul#buttons li{
-	display:inline;  
-  	border-style: solid;
-	padding:10px 0px; 
-	border-width: 0px 0px 2px 0px;
-	border-color: #009688; 
-}
-ul#buttons li a{
-	font-size: 20px;
-	color: #009688; 
-	text-decoration: none; 
-	padding: 10px 20px;
-}
-li#currentpage a {
-  background-color: #009688;
-  color: white !important;
-	border-radius: 4px 4px 0 0;
-}
+    nav {
+        text-align: center;
+        padding: 2em;
+    }
+    ul#buttons li {
+        display: inline;
+    }
+    ul#buttons li a {
+        font-size: 20px;
+        color: #009688;
+        text-decoration: none;
+        padding: 10px 20px;
+    }
+    ul#buttons li a:hover {
+        background-color: white;
+        opacity: 0.6;
+    }
+    li#currentpage a {
+        background-color: #009688;
+        color: white !important;
+        border-radius: 4px 4px 0 0;
+    }
